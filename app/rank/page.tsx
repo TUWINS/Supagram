@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { getTimeAgo } from "../utils/time";
 import { Post } from "../mocks/posts";
-import { supabase } from "../utils/supabase";
+import { supabase } from "../lib/supabase";
 
 
 function HeartIcon() {
